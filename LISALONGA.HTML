@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISA'S Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color:white;
+        }
+        header {
+            background-color: #c0392b;
+            color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #e74c3c;
+            padding: 10px;
+        }
+        nav a {
+            color: lightblue;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('restaurant-hero.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+        .hero h2 {
+            font-size: 2em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .content-section {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu, .about, .contact {
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body background="gallery/L1.jpeg" >
+<link ref="stylesheet" href="lisamenu.html">
+    <header>
+        <h1>Welcome to LISA'S Restaurant</h1>
+    </header>
+
+    <nav>
+        <a href="#menu" >Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Delicious Meals, Beautiful Atmosphere</h2>
+    </div>
+
+    <div id="menu" class="content-section menu" >
+        <h2>Our Menu</h2>
+        <p>Check out our range of delicious dishes prepared with fresh ingredients.</p>
+        <img src="gallery/L4.jpg">
+    </div>
+
+    <div id="about" class="content-section about">
+        <h2>About Us</h2>
+        <p>Welcome to lisa's Restaurant, where we serve the finest dishes with a touch of elegance.</p>
+    </div>
+
+    <div id="contact" class="content-section contact">
+        <h2>Contact Us</h2>
+        <p>Location: 256 Foodie Street, DownTown</p>
+        <p>Phone: +256761056204</p>
+        <p>Email: info@lisasrestaurant.com</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lisa's Restaurant. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
